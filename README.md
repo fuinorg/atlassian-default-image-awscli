@@ -3,9 +3,9 @@ The [Atlassian default build environment Docker image](https://hub.docker.com/r/
 
 [![Automated Docker Build](https://img.shields.io/docker/automated/fuinorg/atlassian-default-image-awscli.svg)](https://hub.docker.com/r/fuinorg/atlassian-default-image-awscli/)
 
-## Versions
+## Version
 
-- atlassian/default-image:1.70
+	atlassian/default-image:1.70
 
 ## Usage
 
