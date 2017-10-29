@@ -11,11 +11,11 @@ The [Atlassian default build environment Docker image](https://hub.docker.com/r/
 
 Simply use this image in your 'bitbucket-pipelines.yml' file:
 
-image: fuinorg/atlassian-default-image-awscli:latest
-pipelines:
-  default:
-    - step:
-        script:
-          - aws codebuild start-build --project-name "<your-project-name>"
+    image: fuinorg/atlassian-default-image-awscli:latest
+    pipelines:
+      default:
+        - step:
+            script:
+              - aws codebuild start-build --project-name "<your-project-name>"
 
 Above configuration is an example on how to start an AWS CodeBuild using the Bitbucket pipeline. 
